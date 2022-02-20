@@ -2,7 +2,7 @@
 import random
 print('Enter the number of friends joining (including you):')
 number_of_friends = int(input())
-if(number_of_friends > 0):
+if number_of_friends > 0:
     friends = {}
     print('Enter the name of every friend (including you), each on a new line')
     for i in range(number_of_friends):
